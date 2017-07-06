@@ -1,0 +1,847 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+	<head>
+		<title>信用贷款额度计算器-轻立方</title>
+		<meta content="text/html; charset=UTF-8" http-equiv="Content-Type">
+		<link rel="shortcut icon" href="favicon.ico">
+		<link rel="stylesheet" href="css/edai-loan.css">
+		<link rel="stylesheet" href="css/edai-global.css">
+		<link href="css/style1.css" type="text/css" rel="stylesheet">
+		<link rel="stylesheet" type="text/css" href="css/hz_xydk1.css"/>
+		<link rel="stylesheet" type="text/css" href="css/hz_dkjsp.css"/>
+		<link rel="stylesheet" type="text/css" href="css/hz_index.css"/>
+		<meta content="抵押贷款,房产抵押贷款,抵押贷款利率,房产抵押贷款流程，企业经营贷款,大额消费贷款" name="keywords">
+		<meta content="抵押贷款,拒绝繁琐!轻立方帮您轻松搞定抵押贷款!厚泽13年抵押贷款经验，办理抵押贷款流程清晰,贷款通过率高，住房抵押贷款金额可达房屋价值的70%，北京抵押贷款就找厚泽担保。" name="Description">
+		<script src="js/jquery.js" type="text/javascript"></script>
+		<script src="js/autoheight.js" type="text/javascript" charset="utf-8"></script>
+		<!--[if IE 6]>
+    <script src="/js/iepng.js" type="text/javascript"></script>
+    <script type="text/javascript">
+       EvPNG.fix('div, ul, img, li, input'); 
+    </script>
+    <![endif]-->
+
+		<!--贷款百科-->
+		<!--<script src="js/jquery.min.js" type="text/javascript"></script>-->
+		<script type="text/javascript">
+			// 城市弹出层
+			$("#city-choose").click(function() {
+				$(".city").toggle();
+			});
+			$("#city-close").click(function() {
+				$(".city").hide();
+			});
+		</script>
+		<script type="text/javascript">
+			$(document).ready(function() {
+				var tags_a = $("#bktags a");
+				tags_a.each(function() {
+					var x = 9;
+					var y = 0;
+					var rand = parseInt(Math.random() * (x - y + 1) + y);
+					$(this).addClass("bktags" + rand);
+				});
+			})
+		</script>
+		<!--贷款百科-->
+		<!--新闻切换-->
+		<script language="javascript">
+			function switchmodTag(modtag, modcontent, modk) {
+				for(i = 1; i < 6; i++) {
+					if(i == modk) {
+						document.getElementById(modtag + i).className = "menuOn";
+						document.getElementById(modcontent + i).className = "slidingList";
+					} else {
+						document.getElementById(modtag + i).className = "menuNo";
+						document.getElementById(modcontent + i).className = "slidingList_none";
+					}
+				}
+			}
+		</script>
+		<!--新闻切换-->
+		 <script>
+		function setTab(m,n){
+		 var tli=document.getElementById("menu"+m).getElementsByTagName("li");
+		 var mli=document.getElementById("main"+m).getElementsByTagName("ul");
+		 for(i=0;i<tli.length;i++){
+		  tli[i].className=i==n?"hover":"";
+		  mli[i].style.display=i==n?"block":"none";
+		 }
+		}
+	</script>
+    <!--问答 攻略 标签切换-->
+    <!--行业资讯 国家政策 标签切换-->
+    <script>
+		function setTaba(m,n){
+		 var tli=document.getElementById("menua"+m).getElementsByTagName("li");
+		 var mli=document.getElementById("maina"+m).getElementsByTagName("ul");
+		 for(i=0;i<tli.length;i++){
+		  tli[i].className=i==n?"hover":"";
+		  mli[i].style.display=i==n?"block":"none";
+		 }
+		}
+	</script>
+
+		<script language="javascript">
+			function openwin() {
+				window.open("/Applyonline/apply.html?f=1402", "", "width=420,height=600")
+			}
+		</script>
+		<!--<link href="css/iblack.css" rel="stylesheet">-->
+		<!--<script type="text/javascript" charset="utf-8" src="images/CdCheck.aspx"></script></head>-->
+
+		<body>
+			<!--<div class="top">
+				<div class="wrap">
+					<ul>
+						<li class="fl">贷款就上轻立方!
+							<a href="http://bj.moerlong.com/" target="_blank">贷款</a>
+							<a href="http://bj.moerlong.com/wenda/" target="_blank">问答</a>
+							<a href="http://www.moerlong.com/zixun/" target="_blank">资讯</a>
+						</li>
+						<li class="fr">
+							<a href="http://www.moerlong.com/user/login/" target="_blank">登录</a>
+							<a href="http://www.moerlong.com/user/register/" target="_blank">注册</a>-->
+							<!-- <a id="topQRcode" href="javascript:void(0);"><i class="icon-tel"></i>手机摩尔龙</a>-->
+						<!--</li>
+					</ul>
+				</div>
+			</div>-->
+
+			<!-- 头部logo及菜单 -->
+			<div class="header">
+				<div class="wrap">
+					<h1 class="logo fl">
+                            <img src="images/logo1.png" style="margin-top: -10px;"><i class="logo-border"></i>
+                        </h1>
+					<div class="area fl">
+						<div class="fl"><em>贷款咨询专家</em>
+							<a id="city-choose" href="javascript:void(0);">【 <i id="choosecity">郑州</i><i>▼</i> 】</a>
+						</div>
+						<div class="top-tel fl">
+							<img style="vertical-align: middle; top: 0px;" src="images/top-telNum.png" alt="贷款咨询热线" width="33" height="34">
+							<span style="vertical-align: middle;" class="chphone"> 5688 9666</span>
+						</div>
+
+						<!--弹出层开始-->
+						<div class="city" id="id_tccity" style="display: none;">
+							<div class="city-tit">
+								<span class="">热门城市</span> 请正确选择所在城市，贷款商家只受理本地客户贷款
+								<a id="city-close" href="javascript:void(0);" title="关闭"></a>
+							</div>
+							<div class="city-con">
+								<dl>
+									<dt>华北东北：</dt>
+									<dd>
+										<ul>
+											<li>
+												<a href="http://bj.moerlong.com/" style="color: rgb(226, 139, 65);">北京</a>
+											</li>
+											<li>
+												<a href="http://tj.edai.com/" style="">天津</a>
+											</li>
+											<li>
+												<a href="http://sy.edai.com/" style="">沈阳</a>
+											</li>
+											<li>
+												<a href="http://dl.edai.com/" style="">大连</a>
+											</li>
+											<li>
+												<a href="http://sjz.edai.com/" style="">石家庄</a>
+											</li>
+											<li>
+												<a href="http://heb.edai.com/" style="">哈尔滨</a>
+											</li>
+											<li>
+												<a href="http://cc.edai.com/" style="">长春</a>
+											</li>
+										</ul>
+									</dd>
+								</dl>
+								<dl>
+									<dt>华东地区：</dt>
+									<dd>
+										<ul>
+											<li>
+												<a href="http://nj.moerlong.com/" style="color: rgb(226, 139, 65);">南京</a>
+											</li>
+											<li>
+												<a href="http://sh.edai.com/" style="">上海</a>
+											</li>
+											<li>
+												<a href="http://qd.edai.com/" style="">青岛</a>
+											</li>
+											<li>
+												<a href="http://jn.edai.com/" style="">济南</a>
+											</li>
+											<li>
+												<a href="http://hz.edai.com/" style="">杭州</a>
+											</li>
+											<li>
+												<a href="http://su.edai.com/" style="">苏州</a>
+											</li>
+											<li>
+												<a href="http://hf.edai.com/" style="">合肥</a>
+											</li>
+											<li>
+												<a href="http://nc.edai.com/" style="">南昌</a>
+											</li>
+											<li>
+												<a href="http://wx.edai.com/" style="">无锡</a>
+											</li>
+											<li>
+												<a href="http://yt.edai.com/" style="">烟台</a>
+											</li>
+											<li>
+												<a href="http://fz.edai.com/" style="">福州</a>
+											</li>
+											<li>
+												<a href="http://xm.edai.com/" style="">厦门</a>
+											</li>
+											<li>
+												<a href="http://nb.edai.com/" style="">宁波</a>
+											</li>
+											<li>
+												<a href="http://cz.edai.com/" style="">常州</a>
+											</li>
+										</ul>
+									</dd>
+								</dl>
+								<dl>
+									<dt>华中华南：</dt>
+									<dd>
+										<ul>
+											<li>
+												<a href="http://sz.moerlong.com/" style="color: rgb(226, 139, 65);">深圳</a>
+											</li>
+											<li>
+												<a href="http://wh.moerlong.com/" style="color: rgb(226, 139, 65);">武汉</a>
+											</li>
+											<li>
+												<a href="http://dg.moerlong.com/" style="color: rgb(226, 139, 65);">东莞</a>
+											</li>
+											<li>
+												<a href="http://huizhou.moerlong.com/" style="color: rgb(226, 139, 65);">惠州</a>
+											</li>
+											<li>
+												<a href="http://gz.edai.com/" style="">广州</a>
+											</li>
+											<li>
+												<a href="http://zz.edai.com/" style="">郑州</a>
+											</li>
+											<li>
+												<a href="http://cs.edai.com/" style="">长沙</a>
+											</li>
+										</ul>
+									</dd>
+								</dl>
+								<dl>
+									<dt>西南西北：</dt>
+									<dd>
+										<ul>
+											<li>
+												<a href="http://cd.moerlong.com/" style="color: rgb(226, 139, 65);">成都</a>
+											</li>
+											<li>
+												<a href="http://cq.edai.com/" style="color: rgb(226, 139, 65);">重庆</a>
+											</li>
+											<li>
+												<a href="http://ql.edai.com/" style="">邛崃</a>
+											</li>
+											<li>
+												<a href="http://my.edai.com/" style="">绵阳</a>
+											</li>
+											<li>
+												<a href="http://luzhou.edai.com/" style="">泸州</a>
+											</li>
+											<li>
+												<a href="http://zy.edai.com/" style="">资阳</a>
+											</li>
+											<li>
+												<a href="http://yb.edai.com/" style="">宜宾</a>
+											</li>
+											<li>
+												<a href="http://neijiang.edai.com/" style="">内江</a>
+											</li>
+											<li>
+												<a href="http://xa.edai.com/" style="">西安</a>
+											</li>
+											<li>
+												<a href="http://lz.edai.com/" style="">兰州</a>
+											</li>
+											<li>
+												<a href="http://gy.edai.com/" style="">贵阳</a>
+											</li>
+											<li>
+												<a href="http://km.edai.com/" style="">昆明</a>
+											</li>
+										</ul>
+									</dd>
+								</dl>
+							</div>
+							<div class="city-more">如果您不在以上城市，请点击“
+								<a href="http://www.moerlong.com/city/" target="_blank" rel="nofollow">更多城市</a>”
+								<span class="grey">(全国共371个分站)</span>
+							</div>
+						</div>
+						<!--弹出层结束-->
+
+					</div>
+					<div class="nav fr xb">
+						<a href="index.html">首页</a>
+						<a href="dydk.html">抵押贷款</a>
+						<a href="xydk.html">信用贷款</a>
+						<a href="dqdk.html">短期贷款</a>
+						<a href="rsfdk.html">二手房贷款</a>
+						<a href="sbrz.html" >三板融资</a>
+						<a href="gywm.html">关于我们</a>
+					</div>
+				</div>
+			</div>
+			<script type="text/javascript">
+				// 城市弹出层
+				$("#city-choose").click(function() {
+					$(".city").toggle();
+				});
+				$("#city-close").click(function() {
+					$(".city").hide();
+				});
+
+				// 顶部手机扫一扫弹出层
+				$('#topQRcode').on('click', function() {
+					popup.dialog({
+						shade: true,
+						drag: true,
+						width: 290,
+						height: 336,
+						title: '扫一扫，访问手机水立方',
+						data: '\<\div style="padding:20px;"><img src="images/http://image.moerlong.com/upload/qrcode/moerlong.jpg" width="250" alt="扫一扫上手机水立方！">\<\/div>'
+					});
+				});
+			</script>
+
+     <div class="hzcons">
+        	<div class="hzcon">
+            	<div class="hzcon1">您当前位置：轻立方 <font size="+1" color="#CD3D33">></font>贷款计算器 <font size="+1" color="#CD3D33">></font>信用贷款计算器</div>
+                <div class="hzcon2">
+                	<div class="hz_jsq_c">
+                		<!--left开始-->
+                          <div class="hz_jsq_c1l">
+                              <div class="hz_jsq_c1l_n1">&nbsp;&nbsp;房贷计算器</div>
+                              <div class="hz_jsq_c1l_n1t">&nbsp;&nbsp;<a href="dkjsq.html">房贷计算器</a></div> 
+                              <div class="hz_jsq_c1l_n1t">&nbsp;&nbsp;<a href="gjjdkjsq.html">公积金贷款计算器</a></div> 
+                              <div class="hz_jsq_c1l_n1t">&nbsp;&nbsp;<a href="zhdkjsq.html">组合贷款计算器</a></div>
+                               <div class="hz_jsq_c1l_n1t">&nbsp;&nbsp;<a href="dydkjsq.html" >抵押贷款计算器</a></div>
+                              <div class="hz_jsq_c1l_n1t">&nbsp;&nbsp;<a href="xydkjsq.html" style="color: #df4935;">信用贷款计算器</a></div>
+                              <div class="hz_jsq_c1l_n1">&nbsp;&nbsp;购房税费计算器</div>
+                              <div class="hz_jsq_c1l_n1t">&nbsp;&nbsp;<a href="gfsfjsq.html" >购房税费计算器</a></div>
+                              <div class="hz_jsq_c1l_n1t">&nbsp;&nbsp;<a href="gfzgjsq.html" >购房资格计算器</a></div>
+                              <div class="hz_jsq_c1l_n1">&nbsp;&nbsp;还款计算器</div> 
+                              <div class="hz_jsq_c1l_n1t">&nbsp;&nbsp;<a href="tqhkjsq.html" >提前还款计算器</a></div>
+                              <div class="hz_jsq_c1l_n1t">&nbsp;&nbsp;<a href="hkfsbjjsq.html" >还款方式比较计算器</a></div>
+                              <div class="hz_jsq_c1l_n1">&nbsp;&nbsp;工资计算器</div> 
+                              <div class="hz_jsq_c1l_n1t">&nbsp;&nbsp;<a href="grsdshgzjsq.html" >个人所得税和工资计算器</a></div>
+                              <div class="hz_jsq_c1l_n1">&nbsp;&nbsp;存款计算器</div> 
+                              <div class="hz_jsq_c1l_n1t">&nbsp;&nbsp;<a href="dqckjsq.html">定期存款计算器</a></div>
+                              <div class="hz_jsq_c1l_n1t">&nbsp;&nbsp;<a href="hqckjsq.html">活期存款计算器</a></div>
+                              <!--<div class="hz_jsq_c1l_n1t">&nbsp;&nbsp;<a href="/html/tool/BankDeposit/">银行存款利率计算器</a></div>
+                              <div class="hz_jsq_c1l_n1t">&nbsp;&nbsp;<a href="/html/tool/lczq/">零存整取计算器</a></div>
+                              <div class="hz_jsq_c1l_n1t">&nbsp;&nbsp;<a href="/html/tool/ZeroSum/">整存零取计算器</a></div>-->
+                              <div class="hz_jsq_c1l_n1">&nbsp;&nbsp;装修计算器</div>
+                              <div class="hz_jsq_c1l_n1t">&nbsp;&nbsp;<a href="qzjsq.html">墙砖计算器</a></div>
+                              <div class="hz_jsq_c1l_n1t">&nbsp;&nbsp;<a href="dbjsq.html">地砖计算器</a></div>
+                              <div class="hz_jsq_c1l_n1t">&nbsp;&nbsp;<a href="dbjsq.html" >地板计算器</a></div>
+                              <div class="hz_jsq_c1l_n1t">&nbsp;&nbsp;<a href="bzjsq.html" >壁纸计算器</a></div>
+                              <div class="hz_jsq_c1l_n1t">&nbsp;&nbsp;<a href="tljsq.html">涂料计算器</a></div>
+                              <div class="hz_jsq_c1l_n1t">&nbsp;&nbsp;<a href="szsnjsq.html">沙子水泥计算器</a></div>
+                          </div>
+                        <!--left结束-->
+                        <!--right开始-->
+                        <div class="hz_jsq_cr">
+                        	<iframe src="js/xydkjsq.aspx" id="iframepage" width="100%" height="100%" frameborder="no" border="0" marginwidth="0" marginheight="0" scrolling="no" onLoad="iFrameHeight()"></iframe>
+                            
+                            
+                            <!--短期贷款开始-->
+    <div class="hz_jsq_bklisty">
+           <div class="hz_jsq_cr_n11y">
+                 <div style="width:80px">信用贷款</div>
+           </div>
+          <!--单条信息开始-->
+          <div class="hz_jsq_bklist1y">
+                <!--内层div开始-->
+                <div class="hz_jsq_bklist2y">
+                      
+                      <div class="hz_jsq_bank2y">
+                           <span>轻易贷 </span><br />
+                           有房一族专属信贷
+                      </div>
+                      <div class="hz_jsq_bank3y">
+                          <span> 50万</span><br />
+                           最高贷款金额
+                           
+                      </div>
+                      <div class="hz_jsq_bank4y">
+                           <span>48小时</span><br />
+                          最快放款时间
+                      </div>
+                      <div class="hz_jsq_bank5y">
+                            <a href="pages/xydk_1.html" target="_blank">
+                                <div class="hz_jsq_bank5ay">
+                                     查看详情
+                                </div>
+                            </a>
+                      </div>
+                </div>
+                <!--内层div结束-->
+          </div>
+          	
+           <!--单条信息结束-->
+          <div class="hz_jsq_bklist1y">
+                   <!--内层div开始-->
+                    <div class="hz_jsq_bklist2y">
+                          
+                          <div class="hz_jsq_bank2y">
+                               <span>公积金信贷  	</span><br />
+                               连续缴存一年以上	
+                          </div>
+                          <div class="hz_jsq_bank3y">
+                              
+                              <span> 100万</span><br />
+                                最高贷款金额	
+                          </div>
+                          <div class="hz_jsq_bank4y">
+                                  <span>2天&#160;</span><br />
+                               最快放款时间
+                              
+                          </div>
+                          <div class="hz_jsq_bank5y">
+                                <a href="pages/xydk_2.html" target="_blank">
+                                    <div class="hz_jsq_bank5ay">
+                                         查看详情
+                                    </div>
+                                </a>
+                          </div>
+                    </div>
+                <!--内层div结束-->
+                  
+          </div>
+          
+          <div class="hz_jsq_bklist1y">
+          
+                  <!--内层div开始-->
+                <div class="hz_jsq_bklist2y">
+                    			
+                      <div class="hz_jsq_bank2y">
+                           <span>月供贷</span><br />
+                          有房正在还月供
+                      </div>
+                      <div class="hz_jsq_bank3y">
+                          
+                           <span> 50万</span><br />
+                           最高贷款金额
+                      </div>
+                      <div class="hz_jsq_bank4y">
+                         
+                            <span>2个工作日</span><br />
+                            最快放款时间	
+                      </div>
+                      <div class="hz_jsq_bank5y">
+                            <a href="pages/xydk_5.html" target="_blank">
+                                <div class="hz_jsq_bank5ay">
+                                     查看详情
+                                </div>
+                            </a>
+                      </div>
+                </div>
+                <!--内层div结束-->
+          
+          </div>
+             <div class="hz_jsq_bklist1y">
+          
+                  <!--内层div开始-->
+                <div class="hz_jsq_bklist2y">
+                    			
+                      <div class="hz_jsq_bank2y">
+                           <span>工资贷</span><br />
+                          只需提供收入证明
+                      </div>
+                      <div class="hz_jsq_bank3y">
+                          
+                           <span> 50万</span><br />
+                           最高贷款金额
+                      </div>
+                      <div class="hz_jsq_bank4y">
+                         
+                            <span>2个工作日</span><br />
+                            最快放款时间	
+                      </div>
+                      <div class="hz_jsq_bank5y">
+                            <a href="pages/xydk_4.html" target="_blank">
+                                <div class="hz_jsq_bank5ay">
+                                     查看详情
+                                </div>
+                            </a>
+                      </div>
+                </div>
+                <!--内层div结束-->
+          
+          </div>
+    </div>
+    <!--信用结束-->      
+        
+    <!--二手房贷款开始-->
+    <div class="hz_jsq_bklisty">
+           <div class="hz_jsq_cr_n11y">
+                 <div style="width:90px">抵押贷款</div>
+           </div>
+          <!--单条信息开始-->
+          <div class="hz_jsq_bklist1y">
+                <!--内层div开始-->
+                <div class="hz_jsq_bklist2y">
+                     
+                      <div class="hz_jsq_bank2y">
+                           <span>个人消费抵押贷款</span><br />
+                           个人综合消费
+                      </div>
+                      <div class="hz_jsq_bank3y">
+                          <span> 10年</span><br />
+                           最长贷款期限
+                           
+                      </div>
+                      <div class="hz_jsq_bank4y">
+                           <span>100万</span><br />
+                          最高贷款金额
+                      </div>
+                      <div class="hz_jsq_bank5y">
+                            <a href="grxfdk.html" target="_blank">
+                                <div class="hz_jsq_bank5ay">
+                                     查看详情
+                                </div>
+                            </a>
+                      </div>
+                </div>
+                <!--内层div结束-->
+          </div>
+           <!--单条信息结束-->
+          <div class="hz_jsq_bklist1y">
+                   <!--内层div开始-->
+                    <div class="hz_jsq_bklist2y">
+                          
+                          <div class="hz_jsq_bank2y">
+                               <span>企业经营抵押贷款</span><br />
+                               补充企业流动资金
+                          </div>
+                          <div class="hz_jsq_bank3y">
+                              
+                              <span> 25年</span><br />
+                                最长贷款期限
+                          </div>
+                          <div class="hz_jsq_bank4y">
+                                  <span>5000万</span><br />
+                               最高贷款金额
+                              
+                          </div>
+                          <div class="hz_jsq_bank5y">
+                                <a href="qyjydk.html" target="_blank">
+                                    <div class="hz_jsq_bank5ay">
+                                         查看详情
+                                    </div>
+                                </a>
+                          </div>
+                    </div>
+                <!--内层div结束-->
+                  
+          </div>
+          
+          <div class="hz_jsq_bklist1y">
+          
+                  <!--内层div开始-->
+                <div class="hz_jsq_bklist2y">
+                   
+                      <div class="hz_jsq_bank2y">
+                           <span>房产净值抵押贷款</span><br />
+                            有贷款再次贷款	
+                      </div>
+                      <div class="hz_jsq_bank3y">
+                          
+                           <span> 25年</span><br />
+                           最长贷款期限
+                      </div>
+                      <div class="hz_jsq_bank4y">
+                         
+                            <span>1000万</span><br />
+                            最高贷款金额
+                      </div>
+                      <div class="hz_jsq_bank5y">
+                            <a href="jzd.html" target="_blank">
+                                <div class="hz_jsq_bank5ay">
+                                     查看详情
+                                </div>
+                            </a>
+                      </div>
+                </div>
+                <!--内层div结束-->
+          
+          </div>
+          <div class="hz_jsq_bklist1y_2">
+          
+                  <!--内层div开始-->
+                <div class="hz_jsq_bklist2y">
+                   
+                      <div class="hz_jsq_bank2y">
+                           <span>短期抵押贷款</span><br />
+                            最快24小时放款
+                      </div>
+                      <div class="hz_jsq_bank3y">
+                          
+                           <span> 10天</span><br />
+                           最短贷款时间
+                      </div>
+                      <div class="hz_jsq_bank4y">
+                         
+                            <span>1000万</span><br />
+                            最高贷款金额
+                      </div>
+                      <div class="hz_jsq_bank5y">
+                            <a href="dydk.html" target="_blank">
+                                <div class="hz_jsq_bank5ay">
+                                     查看详情
+                                </div>
+                            </a>
+                      </div>
+                </div>
+                <!--内层div结束-->
+          </div>
+          
+    </div>
+    <!--二手房贷款结束-->
+                            
+                        </div> 
+                        <!--right结束-->
+                    </div>
+                    <!--<div class="hz_in_c12">-->
+                    	<!--问答 攻略-->
+                    	<!--<div class="hz_in_c12_l" id="tabs0"> 
+                        	<ul class="menu0" id="menu0">
+                            	<li onclick="setTab(0,0)" class="hover">问答</li>
+                               	<li onclick="setTab(0,1)">攻略</li>
+                          	</ul> 
+                            <div class="hz_in_c12_l5" id="main0">
+                            	<ul class="block"><li> 
+    <div class="hz_in_c12_l5_t">
+        <div class="hz_in_c12_l5_timg"><a href="/html/Ask/dkwd/dkcs/4093.html"><img src="images/2015112716510952571.png" width="133" height="91" /></a></div>
+        <div class="hz_in_c12_l5_tn">
+            <div class="hz_in_c12_l5_tw"><a href="/html/Ask/dkwd/dkcs/4093.html">我跟银行申请贷款，为什么要选用厚泽金</a></div>
+            <div class="hz_in_c12_l5_twn"><a href="/html/Ask/dkwd/dkcs/4093.html">我可自行跟银行申请贷款，为什么要选用厚泽担保的贷款服</a> <font style="font-size:12px; color:#EC5D51;">【<a href="/html/Ask/dkwd/dkcs/4093.html" style="text-decoration:none; color:#EC5D51;">查看详情</a>】</font></div>
+        </div>
+    </div>
+ 
+
+    <div class="hz_in_c12_l6"><font style="font-size:22px; color:#BEBEBE;">·</font> <a href="/html/Ask/dkwd/dkyt/5534.html">贷款买车有什么优势？</a></div>
+
+    <div class="hz_in_c12_l6"><font style="font-size:22px; color:#BEBEBE;">·</font> <a href="/html/Ask/dkwd/dkcs/5531.html">银行卡没有注销会影响个人信誉吗？</a></div>
+
+    <div class="hz_in_c12_l6"><font style="font-size:22px; color:#BEBEBE;">·</font> <a href="/html/Ask/dkwd/dkcs/5411.html">外地贷款有逾期影响本地贷款吗？</a></div>
+</li></ul>
+  								<ul><li> 
+    <div class="hz_in_c12_l5_t">
+        <div class="hz_in_c12_l5_timg"><a href="/html/Ask/dkgl/3999.html"><img src="images/20151109142716357.jpg" width="133" height="91" /></a></div>
+        <div class="hz_in_c12_l5_tn">
+            <div class="hz_in_c12_l5_tw"><a href="/html/Ask/dkgl/3999.html">如何正确选择贷款期限</a></div>
+            <div class="hz_in_c12_l5_twn"><a href="/html/Ask/dkgl/3999.html">&#160;&#160;很多人在贷款的时候，更多关注的银行利率的</a> <font style="font-size:12px; color:#EC5D51;">【<a href="/html/Ask/dkgl/3999.html" style="text-decoration:none; color:#EC5D51;">查看详情</a>】</font></div>
+        </div>
+    </div>
+ 
+    <div class="hz_in_c12_l6"><font style="font-size:22px; color:#BEBEBE;">·</font> <a href="/html/Ask/dkgl/5346.html">商业贷款如何转成公积金贷款</a></div>
+
+    <div class="hz_in_c12_l6"><font style="font-size:22px; color:#BEBEBE;">·</font> <a href="/html/Ask/dkgl/4950.html">&#8203;生活中哪些事会影响你贷款买房？</a></div>
+
+    <div class="hz_in_c12_l6"><font style="font-size:22px; color:#BEBEBE;">·</font> <a href="/html/Ask/dkgl/4892.html">&#8203;贷款买房&nbsp;等额本息等额本金那种方式划算？</a></div>
+</li></ul> 
+                            </div>
+                        </div>-->
+                        <!--行业资讯 国家政策-->
+                        <!--<div class="hz_in_c12_r" id="tabsa0">
+                        	<ul class="menua0" id="menua0">
+                            	<li onclick="setTaba(0,0)" class="hover">行业资讯</li>
+                              	<li onclick="setTaba(0,1)">国家政策</li>
+                           	</ul>
+                            <div style="float:left;" id="maina0">
+                                <div class="hz_in_c12_r2">
+                               		<ul class="block">
+                                    	<li>
+                                        	<div class="hz_in_c12_r3">
+                                                 
+    <div class="hz_in_c12_r6"><a href="/html/News/Industry/4563.html"><img src="images/2016012518441981695.png" width="228" height="155" border="0" /></a></div>
+ -->
+                                                <!--<div class="hz_in_c12_r7">
+ 
+                                                    <div class="hz_in_c12_r8"><a href="/html/News/Industry/4563.html">寒冬为贷款奔波，就应该找一个</a></div>
+                                                 
+                                                    <div class="hz_in_c12_r8"><a href="/html/News/Industry/4383.html">你不懂我我不怪你&nbsp;你不找我我</a></div>
+                                                
+                                                </div>-->
+                                            <!--</div> 
+                                            <div class="hz_in_c12_r4">
+                                            
+                                                <div class="hz_in_c12_r5">· <a href="/html/News/Industry/4228.html">厚泽：房产交易金融首选品牌</a></div>
+                                            
+                                                <div class="hz_in_c12_r5">· <a href="/html/News/Industry/6308.html">富人借钱，穷人存钱&nbsp;其实真正</a></div>
+                                            
+                                                <div class="hz_in_c12_r5">· <a href="/html/News/Industry/6251.html">别问我投金融、投房地产哪个</a></div>
+                                            
+                                                <div class="hz_in_c12_r5">· <a href="/html/News/Industry/6233.html">信用决定财富，怎么证明你是个</a></div>
+                                            
+                                                <div class="hz_in_c12_r5">· <a href="/html/News/Industry/6101.html">刚需买房&nbsp;这5种情况会让你失</a></div>
+                                            
+                                                <div class="hz_in_c12_r5">· <a href="/html/News/Industry/6091.html">千万别小看购房发票！丢了连办</a></div>
+                                            
+                                                <div class="hz_in_c12_r5">· <a href="/html/News/Industry/6088.html">社保和医保有什么区别？社保卡</a></div>
+                                            
+                                                <div class="hz_in_c12_r5">· <a href="/html/News/Industry/6082.html">社保收益有多高你造吗？只缴1</a></div>
+                                            
+                                        </li>
+                                    </ul>
+                                   	<ul>
+                                    	<li>
+                                        	<div class="hz_in_c12_r3">
+                                                 
+    <div class="hz_in_c12_r6"><a href="/html/News/Policy/4622.html"><img src="images/2016020217132956688.png" width="228" height="155" border="0" /></a></div>-->
+
+                                                <!--<div class="hz_in_c12_r7">
+                                                     
+                                                    <div class="hz_in_c12_r8"><a href="/html/News/Policy/4622.html">最新房贷新政：不限购城市首</a></div>
+                                                     
+                                                    <div class="hz_in_c12_r8"><a href="/html/News/Policy/6288.html">京沪两地商办新政比较，北京</a></div>
+                                                    
+                                                </div>-->
+                                            <!--</div>
+                                            <div class="hz_in_c12_r4">
+                                                
+                                                <div class="hz_in_c12_r5">· <a href="/html/News/Policy/6285.html">说公积金不实用的&nbsp;其实只是</a></div>
+                                                
+                                                <div class="hz_in_c12_r5">· <a href="/html/News/Policy/6280.html">北京商住政策靴子落定：3·2</a></div>
+                                                
+                                                <div class="hz_in_c12_r5">· <a href="/html/News/Policy/6277.html">政策频出，到了刚需高兴的时</a></div>
+                                                
+                                                <div class="hz_in_c12_r5">· <a href="/html/News/Policy/6268.html">多家中介下调中介费&nbsp;背后透</a></div>
+                                                
+                                                <div class="hz_in_c12_r5">· <a href="/html/News/Policy/6244.html">5月起全国所有市县停发房产</a></div>
+                                                
+                                                <div class="hz_in_c12_r5">· <a href="/html/News/Policy/6240.html">刚刚，北京传来大消息！金融</a></div>
+                                                
+                                                <div class="hz_in_c12_r5">· <a href="/html/News/Policy/6226.html">解读&nbsp;|&nbsp;北京楼市又传大消息</a></div>
+                                                
+                                                <div class="hz_in_c12_r5">· <a href="/html/News/Policy/6224.html">楼市调控开启360°无死角模</a></div>
+                                                
+                                            </div>
+                                        </li>
+                                    </ul> 
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>-->
+
+
+
+
+            
+      <div class="hzfoot"></div>
+			<div class="hzfoot1s">
+				<div class="hzfoot1_c1s">
+					<div class="hzfoot1_cs">
+						<a href="gywm.html" rel="nofollow">关于轻立方</a> &nbsp;|&nbsp;
+						<a href="lxwm.html" rel="nofollow">联系我们</a> &nbsp;|&nbsp;
+						<a href="dkjsq.html" rel="nofollow">贷款计算器</a> &nbsp;|&nbsp;
+						<a href="zxns.html" rel="nofollow">招贤纳士</a> &nbsp;|&nbsp;
+						<a href="mzsm.html" rel="nofollow">免责声明</a> &nbsp;|&nbsp;
+						<a href="pages/dkzlxz_gjj.html" rel="nofollow">贷款资料下载</a>&nbsp;|&nbsp;
+						<a href="dydk.html" rel="nofollow">抵押贷款</a>
+					</div>
+					<div class="hzfoot2_c">
+						地址：北京市朝阳区惠新里甲240号通联大厦一层 电话：010-64997000 24小时贷款热线：400-6656-400<br> Copyright©2008北京轻立方网络科技有限公司 京ICP备05076337 京公网备案110105014833
+					</div>
+				</div>
+			</div>
+			<div class="fixed-bar">
+				<div class="wide-bar">
+					<a href="javascript:scrollTo(0,0)" class="gotop" title="回到顶部" style="display: none;"><span><font style="font-size: 28px;">∧</font><br>返回顶部</span></a>
+				</div>
+			</div>
+
+			<!--百度统计-->
+
+			<script>
+				var _hmt = _hmt || [];
+				(function() {
+					var hm = document.createElement("script");
+					hm.src = "//hm.baidu.com/hm.js?db142cb12e637cea4e9c54aab691c65d";
+					var s = document.getElementsByTagName("script")[0];
+					s.parentNode.insertBefore(hm, s);
+				})();
+			</script>
+			<!--百度统计-->
+
+			<!--返回顶部-->
+			<script type="text/javascript">
+				$(document).scroll(function() {
+					var scrollTop = $(document).scrollTop(),
+						bodyHeight = $(window).height();
+					if(scrollTop > bodyHeight) {
+						$('.fixed-bar .gotop').css('display', 'block');
+					} else {
+						$('.fixed-bar .gotop').css('display', 'none');
+					}
+				})
+			</script>
+			<!--返回顶部-->
+			<!--<div class="onlytop" style="display: none;">  
+                <div style="width: 1024px; margin: auto;">
+                    <div style="width: 100%; height: 70px; float: left; background: rgb(255, 255, 255) none repeat scroll 0% 0%;">
+                        <div style="width: 1024px; height: 70px; margin: auto;">
+                            <div class="hztop2ns"><img src="images/images/images/onlytop.png">
+                            </div>
+                        </div>
+                    </div>
+                </div>  
+            </div>
+<!--停在顶部-->
+			<!--<script type="text/javascript">    
+		$(document).scroll(function(){ 
+			var  scrollTop =  $(document).scrollTop(),bodyHeight = $(window).height(); 
+			if(scrollTop > 210){ 
+				$('.onlytop').css('display','block');
+			}else{
+				$('.onlytop').css('display','none');
+			} 
+		})
+	</script>-->
+			<!--停在顶部-->
+			<!--</div>
+    </div>-->
+
+			<!--<script>   
+        var chars = ['0','1','2','3','4','5','6','7','8','9','A','B','C','D','E','F'];
+        function generateMixed(n) {
+            var res = "";
+            for(var i = 0; i < n ; i ++) {
+                var id = Math.ceil(Math.random()*16);         
+                res += chars[id];     
+            }     
+            return res;
+		}
+		var num = generateMixed(6);   
+		var p = document.getElementById('ppp')   
+	    p.style.color = "#"+num;
+    </script>-->
+			<!--贷款百科-->
+			<!--<script src="js/ajax.js" type="text/javascript"></script>-->
+			<!-- published at 2017/6/9 17:38:24 publish by HOZE -->
+			<!--<div style="display: none; visibility: hidden; position: absolute;" class=""><table class="ui_border"><tbody><tr><td class="ui_lt"></td><td class="ui_t"></td><td class="ui_rt"></td></tr><tr><td class="ui_l"></td><td class="ui_c"><div class="ui_inner"><table class="ui_dialog"><tbody><tr><td colspan="2"><div class="ui_title_bar"><div class="ui_title" unselectable="on" style="cursor: move;"></div><div class="ui_title_buttons"><a class="ui_min" href="javascript:void(0);" title="最小化" style="display: inline-block;"><b class="ui_min_b"></b></a><a class="ui_max" href="javascript:void(0);" title="最大化" style="display: inline-block;"><b class="ui_max_b"></b></a><a class="ui_res" href="javascript:void(0);" title="还原"><b class="ui_res_b"></b><b class="ui_res_t"></b></a><a class="ui_close" href="javascript:void(0);" title="关闭(esc键)" style="display: inline-block;">×</a></div></div></td></tr><tr><td class="ui_icon" style="display: none;"><img src="images/images/images/htm.dat" class="ui_icon_bg"></td><td class="ui_main" style="width: auto; height: auto;"><div class="ui_content" style="padding: 10px;"></div></td></tr><tr><td colspan="2"><div class="ui_buttons" style="display: none;"></div></td></tr></tbody></table></div></td><td class="ui_r"></td></tr><tr><td class="ui_lb"></td><td class="ui_b"></td><td class="ui_rb" style="cursor: se-resize;"></td></tr></tbody></table></div><div id="LRdiv2" style="display: none;"><div id="LRfloater2" style="z-index: 2147483647; position: fixed !important; right: 0px; bottom: 0px;"><div style="width: 400px; height: 400px;" id="LRMINIWIN"><div id="LRMINIWIN0" style="z-index: 2147483647; position: absolute; height: 30px; overflow: hidden; display: block; right: 0px;"><span style="float: left; clear: none; width: 103px; height: 20px; overflow: hidden; margin: 0px 5px;"></span><span style="cursor: pointer; float: right; clear: none; width: 20px; height: 20px; margin: 6px 2px 0px 0px; overflow: hidden;" onclick="lr_closemini(1);"><img style="cursor: pointer;" src="images/close.png" border="0"></span><span style="cursor: pointer; float: right; overflow: hidden; width: 20px; height: 20px; clear: none; display: block; margin: 6px 2px 0px 0px;" onclick="lrminiMin();"><img src="images/images/images/da1.png" style="cursor: pointer;" border="0"></span><span style="cursor: pointer; float: right; overflow: hidden; width: 20px; height: 20px; clear: none; display: block; margin: 6px 2px 0px 0px;" onclick="openZoosUrl('bchatwin');lr_hidemini();"><img src="images/images/images/da.png" style="cursor: pointer;" border="0"></span><span style="cursor: pointer; float: right; overflow: hidden; width: 20px; height: 20px; clear: none; display: block; margin: 6px 2px 0px 0px;" onclick="lrmove();"><img src="images/images/images/jiantou.png" style="cursor: pointer;" border="0"></span></div><iframe id="LR_miniframe" name="LR_miniframe" scrolling="No" allowtransparency="true" src="index_1.html" width="100%" height="400px" frameborder="0"></iframe></div></div></div><div id="LRdiv3" style="display: block;"><div id="LRfloater3" style="z-index: 2147483647; position: fixed !important; right: 0px; bottom: 0px;"><div id="LRMINIBar" class="LR_Mini_ICON" style="display: none; right: 15px; bottom: 30px;" onclick="lrminiMax();"><a class="LR-BTN" style="background-color: rgb(91, 164, 237);"><span class="LR-ICON LR-ICON-CHAT1" id="LR-BTN-ICON"></span><span id="LR-CIRCLE" style="display: none; background-color: rgb(91, 164, 237);"></span> </a><div id="LR-BUBBLE" style="display: none; width: 400px; right: 0px; margin-right: 34px; cursor: pointer; bottom: 30px;"><span class="LR-ICON" id="LR-BUBBLE-CLOSE" onclick="return closebarhtml(event);"></span><div id="LR-BUBBLE-INSIDE"><div id="LR-BUBBLE-title"><img id="LR-BUBBLE-AVATAR" src="htm.dat"><span id="LR-BUBBLE-NAME"></span></div><div id="LR-BUBBLE-MSG"></div></div></div></div></div></div></body>-->
+
+</html>
+
+

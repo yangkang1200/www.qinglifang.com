@@ -1,0 +1,67 @@
+/* Code tidied up by ScrapBook */
+body { margin: 0px; font-family: "Microsoft Yahei"; }
+body a { cursor: pointer; }
+.hzall { width: 100%; height: 100%; margin: auto; background: rgb(245, 245, 246) none repeat scroll 0% 0%; font-family: "Microsoft Yahei"; }
+.hztop1 { width: 100%; height: 40px; float: left; background: rgb(87, 86, 86) none repeat scroll 0% 0%; }
+.hztop1n1 { width: 1024px; height: 40px; margin: auto; }
+.hztop1ns { width: 1024px; height: 40px; float: left; font-size: 12px; }
+.hztop1nsl { width: 550px; line-height: 40px; float: left; color: rgb(255, 255, 255); }
+.hztop1nsl a { color: rgb(255, 255, 255); }
+.hztop1nsm { width: 377px; line-height: 40px; float: right; color: rgb(255, 255, 255); border-right: 0px solid rgb(66, 66, 66); text-align: right; }
+.hztop1nsm a { color: rgb(255, 255, 255); }
+.hztop2 { width: 100%; height: 140px; float: left; background: rgb(255, 255, 255) none repeat scroll 0% 0%; }
+.hztop2n { width: 1024px; height: 140px; margin: auto; }
+.hztop2ns { width: 1024px; height: 140px; float: left; }
+.hztop2_logo { width: 343px; height: 140px; float: left; }
+.hztop2_m { width: 353px; height: 67px; margin-top: 40px; float: left; }
+.hzrx { width: 317px; height: 140px; float: right; }
+.hzcons { width: 100%; height: 100%; float: left; background: rgb(246, 246, 247) none repeat scroll 0% 0%; }
+.hzcon { width: 1024px; height: 100%; margin: 25px auto auto; }
+.hzcon2 { width: 1024px; height: 100%; float: left; margin-top: 20px; }
+.hzcon_r_c1 { width: 246px; height: 295px; float: left; border-top: 3px solid rgb(237, 93, 82); background: rgb(255, 255, 255) none repeat scroll 0% 0%; box-shadow: 0px 0px 10px rgb(204, 204, 204); }
+.hzcon_r_c2 { width: 246px; height: 40px; line-height: 40px; float: left; color: rgb(33, 24, 17); }
+.hzcon_r_c2 a { color: rgb(33, 24, 17); }
+.hzcon_r_c3 { width: 246px; height: 81px; float: left; border-top: 1px solid rgb(209, 211, 212); color: rgb(33, 24, 17); }
+.hzcon_r_c4 { width: 225px; height: 50px; float: left; margin-top: 16px; margin-left: 19px; }
+.hzcon_r_c4_img { width: 70px; height: 50px; float: left; }
+.hzcon_r_c4_c { width: 155px; height: 50px; float: left; line-height: 24px; font-size: 14px; color: rgb(85, 85, 85); }
+.hzcon_r_c8 { width: 246px; height: 39px; float: left; line-height: 38px; border-bottom: 1px solid rgb(215, 219, 215); }
+.hzcon_r_c9 { width: 146px; height: 39px; float: left; font-size: 16px; color: rgb(33, 24, 17); }
+.hzcon_r_c10 { width: 100px; height: 39px; line-height: 39px; float: left; text-align: right; font-size: 12px; }
+.hzcon_r_c10 a { color: rgb(101, 101, 101); }
+.hzfoot { width: 100%; float: left; margin-top: 60px; height: 3px; background: #639e3f none repeat scroll 0% 0%; }
+.hzfoot1 { width: 100%; float: left; height: 175px; }
+.hzfoot1_c { width: 1024px; margin: auto; height: 175px; }
+.hzfoot1_cs { width: 1024px; float: left; height: 50px; line-height: 50px; text-align: center; font-size: 14px; color: rgb(85, 85, 85); }
+.hzfoot1_cs a { color: rgb(85, 85, 85); }
+.hzfoot2_c { width: 1024px; float: left; height: 80px; line-height: 30px; text-align: center; font-size: 14px; color: rgb(85, 85, 85); }
+.hzfoot2_yl { width: 1024px; float: left; height: auto; line-height: 30px; font-size: 14px; color: rgb(135, 135, 135); border-bottom: 1px solid rgb(230, 230, 230); }
+.hzfoot2_yl a { color: rgb(135, 135, 135); }
+.hzzf_r_c5 { width: 225px; height: 32px; float: left; line-height: 32px; font-size: 14px; color: rgb(85, 85, 85); padding-left: 15px; overflow: hidden; }
+.hzzf_r_c5 a { color: rgb(85, 85, 85); }
+.hz_dy_c3 { height: 20px; float: left; margin-left: 3px; margin-top: 4px; }
+.hz_dy_c7 { width: 220px; height: 250px; float: left; margin-left: 14px; font-size: 14px; color: rgb(85, 85, 85); margin-top: 8px; }
+.hz_dkbk_c3 { width: 246px; height: 142px; float: right; border-top: 3px solid rgb(237, 93, 82); background: rgb(255, 255, 255) none repeat scroll 0% 0%; box-shadow: 0px 0px 10px rgb(204, 204, 204); }
+.hz_in_tplh { width: 246px; height: 144px; margin-top: 9px; float: right; }
+.hz_in_tplh ul.hz_in_tplh-wrapper { height: 144px; }
+.tb{margin-top: 45px;}
+.hz_in_tplh ul { margin: 0px; padding: 0px; list-style-type: none; }
+.hz_in_tplh { position: relative; overflow: hidden; }
+.hz_in_tplh ul.hz_in_tplh-wrapper { position: absolute; top: 0px; left: 0px; z-index: 1; margin: 0px; padding: 0px; }
+.hz_in_tplh ul.hz_in_tplh-wrapper li { position: absolute; margin-top: 0px; }
+.hz_in_tplh ul.hz_in_tplh-wrapper li a { line-height: 0px; display: block; }
+.hz_in_tplh .ck-prev, .hz_in_tplh .ck-next { position: absolute; top: 151px; z-index: 2; width: 20px; height: 30px; margin-top: -35px; border-radius: 3px; opacity: 0; background: red none no-repeat scroll 0% 0%; text-indent: -9999px; transition: opacity 0.2s linear 0s; }
+.hz_in_tplh .ck-prev { left: 65px; background: rgba(0, 0, 0, 0) url("../images/arrow-left.png") no-repeat scroll 50% center; }
+.hz_in_tplh .ck-next { right: 65px; background: rgba(0, 0, 0, 0) url("../images/arrow-right.png") no-repeat scroll 50% center; }
+.hz_in_tplhbox { position: absolute; left: 50%; bottom: 4px; z-index: 30; }
+.hz_in_tplhbox ul { height: 20px; padding: 0px; border-radius: 8px; background: rgba(0, 0, 0, 0) none repeat scroll 0% 0%; }
+.hz_in_tplhbox ul li { float: left; height: 12px; margin: 4px; }
+.hz_in_tplhbox ul li em { display: block; width: 12px; height: 12px; border-radius: 100%; background-color: rgb(255, 255, 255); text-indent: -9999px; cursor: pointer; }
+.hz_in_tplhbox ul li.current em { background-color: rgb(254, 101, 0); }
+.hz_in_tplhbox ul li em:hover { background-color: rgb(254, 101, 0); }
+.onlytop { width: 100%; margin: auto; float: left; position: fixed; right: 0px; top: 0px; z-index: 50; display: none; background: rgb(255, 255, 255) none repeat scroll 0% 0%; }
+.fixed-bar { position: fixed; right: 0px; bottom: 5px; z-index: 50; }
+.fixed-bar .gotop { position: relative; z-index: 1; display: block; width: 68px; height: 64px; overflow: hidden; background-color: rgb(237, 93, 82); text-align: center; font-size: 14px; color: rgb(255, 255, 255); }
+.fixed-bar .gotop:hover { z-index: 10; background-color: rgb(237, 93, 82); color: rgb(255, 255, 255); text-decoration: none; }
+.fixed-bar .wide-bar { width: 68px; background: rgb(255, 255, 255) none repeat scroll 0% 0%; }
+.fixed-bar .wide-bar .gotop { width: 68px; }

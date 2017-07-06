@@ -1,0 +1,712 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>抵押贷款,房产抵押贷款-厚泽</title>
+    <meta content="text/html; charset=gb2312" http-equiv=Content-Type>
+    
+     
+    <link href="/images/style.css" type=text/css rel=stylesheet>
+    <meta content="抵押贷款,房产抵押贷款,抵押贷款利率,房产抵押贷款流程，企业经营贷款,大额消费贷款" name="keywords" />
+    <meta content="抵押贷款,拒绝繁琐!厚泽帮您轻松搞定抵押贷款!厚泽13年抵押贷款经验，办理抵押贷款流程清晰,贷款通过率高，住房抵押贷款金额可达房屋价值的70%，北京抵押贷款就找厚泽担保。" name="Description" />
+    <script src="/ks_inc/jquery.js" type="text/javascript"></script>
+    <script src="/ks_inc/common.js" type="text/javascript"></script>
+    <!--[if IE 6]>
+    <script src="/js/iepng.js" type="text/javascript"></script>
+    <script type="text/javascript">
+       EvPNG.fix('div, ul, img, li, input'); 
+    </script>
+    <![endif]-->
+    <link rel="stylesheet" type="text/css" href="/css/hz_xydk.css"/>
+    <!--贷款百科-->
+	<script src="http://lib.sinaapp.com/js/jquery/1.4.2/jquery.min.js" type="text/javascript"></script>
+    <script type="text/javascript">
+       $(document).ready(function() {
+          var tags_a = $("#bktags a");
+          tags_a.each(function(){
+              var x = 9;
+              var y = 0;
+              var rand = parseInt(Math.random() * (x - y + 1) + y);
+              $(this).addClass("bktags"+rand);
+           });
+       })   
+    </script>
+    <!--贷款百科-->
+    <!--新闻切换-->
+	<script language="javascript">
+		 function switchmodTag(modtag,modcontent,modk) {
+		 for(i=1; i <6; i++) {
+		 if (i==modk) {
+		 document.getElementById(modtag+i).className="menuOn";document.getElementById(modcontent+i).className="slidingList";}
+		 else {
+		 document.getElementById(modtag+i).className="menuNo";document.getElementById(modcontent+i).className="slidingList_none";}
+		 }
+		 }
+	</script>
+    <!--新闻切换-->
+    <script language="javascript">   
+	<!--   
+	function openwin()   
+	{window.open("/Applyonline/apply.html?f=1402","","width=420,height=600")   
+	}   
+	//-->   
+	</script>
+</head>
+<body>
+	<div class="hzall"> 
+        <!--微信-->
+    <script>
+		function displayImage() {
+			document.getElementById("image1").style.display = "block";
+		}
+		function hiddenImage() {
+			document.getElementById("image1").style.display = "none";
+		}
+	</script>
+	<style>
+		#image1 { position:absolute; z-index:99; top:35px; left:865px;  display:none;}
+	</style>
+	<!--微信-->
+    <div style=" width:100%; margin:auto;  z-index:99;">
+        <div style=" width:1002px; margin:auto; position:relative;  z-index:99;">
+            <div id="image1"><img src="../../html/images/HZ_images/hzwx.gif" width="92" height="92" 
+/></div>  
+        </div>
+    </div>
+<div class="topback">
+<div class="hztop1">
+        	<div class="hztop1n1">
+            	<div class="hztop1ns">
+                	<div class="hztop1nsl"><img src="../../html/images/HZ_images/guwm.png" 
+/>&nbsp;&nbsp;<a href="/html/about/gyhz/3891.html" 
+rel="nofollow">关于厚泽</a> &nbsp;<img src="../../html/images/HZ_images/lxwm.png" 
+/>&nbsp;&nbsp;<a  href="/html/about/lxwm/3892.html" rel="nofollow">联系我们</a></div>
+                    <div class="hztop1nsm"><a href="#" onmouseover="displayImage()" 
+onmouseout="hiddenImage()"><img 
+src="../../html/images/HZ_images/t_weixin.gif" />&nbsp;厚泽微信 </a>&nbsp;&nbsp;<img 
+src="../../html/images/HZ_images/t_weibo.gif" />&nbsp;<a href="http://weibo.com/bjihouze" 
+target="_blank" rel="nofollow">官方微博
+</a>&nbsp;&nbsp;<a href="/html/hzpg/" target="_blank"><img 
+src="../../html/images/HZ_images/t_fangch.png" target="_blank" />&nbsp;房产评估</a></div>
+                    <!--<div class="hztop1nsr">&nbsp; <a href="">登录</a>&nbsp; &nbsp;<a href="">免费
+注册</a></div>-->
+                </div>
+            </div>
+        </div>
+        
+        <div class="hztop2">
+        	<div class="hztop2n">
+            	<div class="hztop2ns">
+            		<div class="hztop2_logo"><a href="/"><img 
+src="../../html/images/HZ_images/t_logo.gif"  width="343" height="140" /></a></div>
+                    <div class="hztop2_m"><img src="../../html/images/HZ_images/logor.png" /></div>
+                    <div class="hzrx"><img src="../../html/images/HZ_images/hzex.png" /></div>
+                </div>
+            </div>
+        </div> 
+<div class="clear "></div>
+<div class="nav">
+	<div class="menu">
+		<ul>
+		 <li><a  href="/">首页</a></li>  
+                 <li class="currclass"><a  href="/html/Mortgage/">抵押贷款</a></li>
+                 <li><a  href="/html/Shorttb/">短期借款</a></li>
+                 <li><a  href="/html/Creditloan/" rel="nofollow">信用贷款</a></li>
+                 <li><a  href="/html/Housingloan/" rel="nofollow">二手房贷款</a></li>
+                 <li><a  href="/html/News/">新闻资讯</a></li>
+                 <li><a  href="/html/Ask/">攻略问答</a></li>
+                 <li><a  href="/html/tool/">贷款计算器</a></li>		
+		</ul>
+	</div>	
+</div>
+
+
+
+</div><!--topback--->
+<script src="/ks_inc/lhgdialog.js" type="text/javascript"></script>
+        <!--导航结束-->
+        <div class="hzcons">
+        	<div class="hzcon">
+            	<div class="hzcon1">您当前位置：<a  href="/">厚泽金融</a> >> <a  href="/html/Mortgage/">抵押贷款</a> >> 频道首页</div>
+                <div class="hzcon2">
+                	<!--left开始-->
+                	<div class="hz_dkwd_l">
+                    	<div class="hzcon_l">
+                        	<div class="hz_dk_timg"><a href="/html/Mortgage_1506_1.html"><img src="../../html/images/HZ_images/dydk_banner.jpg" /></a></div>
+                        	<!--搜索结果排序-->
+                        	 
+    <div class="hzcon3_c">
+        <div class="hzcon3_c1">
+            <div class="hzcon3_c1l">
+                <div class="hz_dy_c4"><img src="/UploadFiles/2015-12/282/2015121614260940431.png" width="37" height="37" /></div>
+                                    <div class="hz_dy_c5"></div>
+                                </div>
+                                <div class="hzcon3_c1m">  
+									<div class="hzcon3_c1m_t">
+                                    	<div class="hzcon3_c1m_ts"><a href="/html/Mortgage_1506_6.html"><span style="color:#990000">[推荐]</span>房产净值抵押贷款—有贷款还能贷</a></div>
+                                        <div class="hz_dy_c3"><span style="background-color:#FF8D73; font-size:12px; color:#FFFFFF;"></span></div>
+                                        
+                                    </div>
+                                    <div class="hzcon3_c1m_bb">
+                                    	<div class="hzcon3_c1m_h"><img src="../../html/images/HZ_images/hong.gif" /></div>
+                                        <div class="hzcon3_c1m_w">适用对象：有贷款还需资金 </div>
+                                    </div>
+                                    <div class="hzcon3_c1m_bb">
+                                    	<div class="hzcon3_c1m_h"><img src="../../html/images/HZ_images/lv.gif" /></div>
+                                        <div class="hzcon3_c1m_w">产品优势：原贷款利率和金额不变，净值再贷25年，最高1000万 </div>
+                                    </div>
+                                    <div class="hzcon3_c1m_t1">最高贷款金额：<font style="color:#B92327; font-size:16px;">1000万 </font></div>
+                                     
+                                </div>
+                                <div class="hzcon3_c1r">
+                                	<div class="hzcon3_btn"><script language="javascript">
+<!--
+document.write('<div id="LR_User_Icon/html/Mortgage_1506_6.html"></div>');
+//-->
+</script></div>
+                 <div class="hzcon3_btn"><a href="#" onclick="openwin();">在线申请</a></div>                    
+                                </div>
+                            </div>
+                        </div>
+ 
+    <div class="hzcon3_c">
+        <div class="hzcon3_c1">
+            <div class="hzcon3_c1l">
+                <div class="hz_dy_c4"><img src="/UploadFiles/2015-11/282/2015112418261525527.gif" width="37" height="37" /></div>
+                                    <div class="hz_dy_c5"></div>
+                                </div>
+                                <div class="hzcon3_c1m">  
+									<div class="hzcon3_c1m_t">
+                                    	<div class="hzcon3_c1m_ts"><a href="/html/Mortgage_1506_2.html"><span style="color:#990000">[推荐]</span>企业经营抵押贷款—补充流动资金</a></div>
+                                        <div class="hz_dy_c3"><span style="background-color:#FF8D73; font-size:12px; color:#FFFFFF;"></span></div>
+                                        
+                                    </div>
+                                    <div class="hzcon3_c1m_bb">
+                                    	<div class="hzcon3_c1m_h"><img src="../../html/images/HZ_images/hong.gif" /></div>
+                                        <div class="hzcon3_c1m_w">适用对象：企业法人，隐名股东和显名股东 </div>
+                                    </div>
+                                    <div class="hzcon3_c1m_bb">
+                                    	<div class="hzcon3_c1m_h"><img src="../../html/images/HZ_images/lv.gif" /></div>
+                                        <div class="hzcon3_c1m_w">产品优势：25年期限，年利率5.88％起 </div>
+                                    </div>
+                                    <div class="hzcon3_c1m_t1">最高贷款金额：<font style="color:#B92327; font-size:16px;">5000万 </font></div>
+                                     
+                                </div>
+                                <div class="hzcon3_c1r">
+                                	<div class="hzcon3_btn"><script language="javascript">
+<!--
+document.write('<div id="LR_User_Icon/html/Mortgage_1506_2.html"></div>');
+//-->
+</script></div>
+                 <div class="hzcon3_btn"><a href="#" onclick="openwin();">在线申请</a></div>                    
+                                </div>
+                            </div>
+                        </div>
+ 
+    <div class="hzcon3_c">
+        <div class="hzcon3_c1">
+            <div class="hzcon3_c1l">
+                <div class="hz_dy_c4"><img src="/UploadFiles/2015-11/282/2015112418255236930.gif" width="37" height="37" /></div>
+                                    <div class="hz_dy_c5"></div>
+                                </div>
+                                <div class="hzcon3_c1m">  
+									<div class="hzcon3_c1m_t">
+                                    	<div class="hzcon3_c1m_ts"><a href="/html/Mortgage_1506_1.html"><span style="color:#990000">[推荐]</span>抵押消费贷款—个人综合消费</a></div>
+                                        <div class="hz_dy_c3"><span style="background-color:#FF8D73; font-size:12px; color:#FFFFFF;"></span></div>
+                                        
+                                    </div>
+                                    <div class="hzcon3_c1m_bb">
+                                    	<div class="hzcon3_c1m_h"><img src="../../html/images/HZ_images/hong.gif" /></div>
+                                        <div class="hzcon3_c1m_w">适用对象：个人大额消费 </div>
+                                    </div>
+                                    <div class="hzcon3_c1m_bb">
+                                    	<div class="hzcon3_c1m_h"><img src="../../html/images/HZ_images/lv.gif" /></div>
+                                        <div class="hzcon3_c1m_w">产品优势：期限1-10年、按月还款 </div>
+                                    </div>
+                                    <div class="hzcon3_c1m_t1">最高贷款金额：<font style="color:#B92327; font-size:16px;">100万 </font></div>
+                                     
+                                </div>
+                                <div class="hzcon3_c1r">
+                                	<div class="hzcon3_btn"><script language="javascript">
+<!--
+document.write('<div id="LR_User_Icon/html/Mortgage_1506_1.html"></div>');
+//-->
+</script></div>
+                 <div class="hzcon3_btn"><a href="#" onclick="openwin();">在线申请</a></div>                    
+                                </div>
+                            </div>
+                        </div>
+ 
+    <div class="hzcon3_c">
+        <div class="hzcon3_c1">
+            <div class="hzcon3_c1l">
+                <div class="hz_dy_c4"><img src="/UploadFiles/2015-11/282/2015112418251510361.gif" width="37" height="37" /></div>
+                                    <div class="hz_dy_c5"></div>
+                                </div>
+                                <div class="hzcon3_c1m">  
+									<div class="hzcon3_c1m_t">
+                                    	<div class="hzcon3_c1m_ts"><a href="/html/Mortgage_1506_3.html">装修抵押贷款—家庭装修用途</a></div>
+                                        <div class="hz_dy_c3"><span style="background-color:#FF8D73; font-size:12px; color:#FFFFFF;"></span></div>
+                                        
+                                    </div>
+                                    <div class="hzcon3_c1m_bb">
+                                    	<div class="hzcon3_c1m_h"><img src="../../html/images/HZ_images/hong.gif" /></div>
+                                        <div class="hzcon3_c1m_w">适用对象：个人家庭装修，公司装修 </div>
+                                    </div>
+                                    <div class="hzcon3_c1m_bb">
+                                    	<div class="hzcon3_c1m_h"><img src="../../html/images/HZ_images/lv.gif" /></div>
+                                        <div class="hzcon3_c1m_w">产品优势：专项资金，用途简便，贷款期限长 </div>
+                                    </div>
+                                    <div class="hzcon3_c1m_t1">最高贷款金额：<font style="color:#B92327; font-size:16px;">100万 </font></div>
+                                     
+                                </div>
+                                <div class="hzcon3_c1r">
+                                	<div class="hzcon3_btn"><script language="javascript">
+<!--
+document.write('<div id="LR_User_Icon/html/Mortgage_1506_3.html"></div>');
+//-->
+</script></div>
+                 <div class="hzcon3_btn"><a href="#" onclick="openwin();">在线申请</a></div>                    
+                                </div>
+                            </div>
+                        </div>
+ 
+    <div class="hzcon3_c">
+        <div class="hzcon3_c1">
+            <div class="hzcon3_c1l">
+                <div class="hz_dy_c4"><img src="/UploadFiles/2015-11/282/2015112418241513834.gif" width="37" height="37" /></div>
+                                    <div class="hz_dy_c5"></div>
+                                </div>
+                                <div class="hzcon3_c1m">  
+									<div class="hzcon3_c1m_t">
+                                    	<div class="hzcon3_c1m_ts"><a href="/html/Mortgage_1506_4.html">留学抵押贷款—各种留学消费</a></div>
+                                        <div class="hz_dy_c3"><span style="background-color:#FF8D73; font-size:12px; color:#FFFFFF;"></span></div>
+                                        
+                                    </div>
+                                    <div class="hzcon3_c1m_bb">
+                                    	<div class="hzcon3_c1m_h"><img src="../../html/images/HZ_images/hong.gif" /></div>
+                                        <div class="hzcon3_c1m_w">适用对象：出国留学生活费，学费均可 </div>
+                                    </div>
+                                    <div class="hzcon3_c1m_bb">
+                                    	<div class="hzcon3_c1m_h"><img src="../../html/images/HZ_images/lv.gif" /></div>
+                                        <div class="hzcon3_c1m_w">产品优势：10年期限，本人及第三人房产均可 </div>
+                                    </div>
+                                    <div class="hzcon3_c1m_t1">最高贷款金额：<font style="color:#B92327; font-size:16px;">100万 </font></div>
+                                     
+                                </div>
+                                <div class="hzcon3_c1r">
+                                	<div class="hzcon3_btn"><script language="javascript">
+<!--
+document.write('<div id="LR_User_Icon/html/Mortgage_1506_4.html"></div>');
+//-->
+</script></div>
+                 <div class="hzcon3_btn"><a href="#" onclick="openwin();">在线申请</a></div>                    
+                                </div>
+                            </div>
+                        </div>
+ 
+    <div class="hzcon3_c">
+        <div class="hzcon3_c1">
+            <div class="hzcon3_c1l">
+                <div class="hz_dy_c4"><img src="/UploadFiles/2015-11/282/2015112418244263046.gif" width="37" height="37" /></div>
+                                    <div class="hz_dy_c5"></div>
+                                </div>
+                                <div class="hzcon3_c1m">  
+									<div class="hzcon3_c1m_t">
+                                    	<div class="hzcon3_c1m_ts"><a href="/html/Mortgage_1506_5.html">购车抵押贷款—车辆购置费用</a></div>
+                                        <div class="hz_dy_c3"><span style="background-color:#FF8D73; font-size:12px; color:#FFFFFF;"></span></div>
+                                        
+                                    </div>
+                                    <div class="hzcon3_c1m_bb">
+                                    	<div class="hzcon3_c1m_h"><img src="../../html/images/HZ_images/hong.gif" /></div>
+                                        <div class="hzcon3_c1m_w">适用对象：用于购买私家车 </div>
+                                    </div>
+                                    <div class="hzcon3_c1m_bb">
+                                    	<div class="hzcon3_c1m_h"><img src="../../html/images/HZ_images/lv.gif" /></div>
+                                        <div class="hzcon3_c1m_w">产品优势：金额高，期限长 </div>
+                                    </div>
+                                    <div class="hzcon3_c1m_t1">最高贷款金额：<font style="color:#B92327; font-size:16px;">100万 </font></div>
+                                     
+                                </div>
+                                <div class="hzcon3_c1r">
+                                	<div class="hzcon3_btn"><script language="javascript">
+<!--
+document.write('<div id="LR_User_Icon/html/Mortgage_1506_5.html"></div>');
+//-->
+</script></div>
+                 <div class="hzcon3_btn"><a href="#" onclick="openwin();">在线申请</a></div>                    
+                                </div>
+                            </div>
+                        </div>
+ 
+                        </div>
+                        <div class="hz_dkwd_c">
+                            <div class="hz_dkwd_c1">
+                                <div class="hz_dkwd_c2">
+                                    <div class="hz_dkwd_c2t">抵押贷款攻略  </div>
+                                </div>
+                                <div class="hz_dkwd_c3">
+                                	 
+<li class="hz_dkwd_c4"><a href="/html/Ask/dydkgl/4778.html" target="_blank" title="&#8203;想贷款买房更划算 你需要知道这几点">&#8203;想贷款买房更划算&nbsp;你需要知道这几点</a></li>
+ 
+<li class="hz_dkwd_c4"><a href="/html/Ask/dydkgl/4507.html" target="_blank" title="抵押贷款和无抵押贷款到底怎么选？那个更适合自己？">抵押贷款和无抵押贷款到底怎么选？那个更适合自己？</a></li>
+ 
+<li class="hz_dkwd_c4"><a href="/html/Ask/dydkgl/4493.html" target="_blank" title="未经配偶同意 擅自办理抵押是否有效？">未经配偶同意&nbsp;擅自办理抵押是否有效？</a></li>
+ 
+<li class="hz_dkwd_c4"><a href="/html/Ask/dydkgl/4468.html" target="_blank" title="如何做房屋抵押贷款？">如何做房屋抵押贷款？</a></li>
+ 
+<li class="hz_dkwd_c4"><a href="/html/Ask/dydkgl/4238.html" target="_blank" title="房产证抵押贷款如何办理">房产证抵押贷款如何办理</a></li>
+ 
+<li class="hz_dkwd_c4"><a href="/html/Ask/dydkgl/4233.html" target="_blank" title="抵押贷款抵押物被转账处理方式">抵押贷款抵押物被转账处理方式</a></li>
+
+                                </div>
+                            </div>
+                            <div class="hz_dkwd_cr">
+                                <div class="hz_dkwd_c2">
+                                    <div class="hz_dkwd_c2t">抵押贷款问答  </div>
+                                </div>
+                                <div class="hz_dkwd_c3">
+                                	 
+<li class="hz_dkwd_c4"><a href="/html/Ask/dydkwd/5667.html" target="_blank" title="房屋抵押贷款的三种方式">房屋抵押贷款的三种方式</a></li>
+ 
+<li class="hz_dkwd_c4"><a href="/html/Ask/dydkwd/5666.html" target="_blank" title="个人消费贷款最高可贷年限是多少年？">个人消费贷款最高可贷年限是多少年？</a></li>
+ 
+<li class="hz_dkwd_c4"><a href="/html/Ask/dydkwd/5585.html" target="_blank" title="企业经营信用贷款如何申请">企业经营信用贷款如何申请</a></li>
+ 
+<li class="hz_dkwd_c4"><a href="/html/Ask/dydkwd/5584.html" target="_blank" title="个人经营贷款的申请条件">个人经营贷款的申请条件</a></li>
+ 
+<li class="hz_dkwd_c4"><a href="/html/Ask/dydkwd/5583.html" target="_blank" title="没有抵押物如何贷款">没有抵押物如何贷款</a></li>
+ 
+<li class="hz_dkwd_c4"><a href="/html/Ask/dydkwd/5582.html" target="_blank" title="抵押贷款的含义是什么">抵押贷款的含义是什么</a></li>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="hz_xw_dk">
+                        	<div class="hz_xw_dk_c1">
+                            	<div class="hz_xw_dk_c6">
+                                	<div class="menuOn" id="mod1" onmouseover="switchmodTag('mod','slidingList','1');this.blur();">行业资讯</div>
+                                    <div class="hz_xw_dk_c8">&nbsp;</div>
+                                    <div class="menuNo" id="mod2" onmouseover="switchmodTag('mod','slidingList','2');this.blur();">房 产</div>
+                                    <div class="hz_xw_dk_c8">&nbsp;</div>
+                                    <div class="menuNo" id="mod3" onmouseover="switchmodTag('mod','slidingList','3');this.blur();">金 融</div>
+                                    <div class="hz_xw_dk_c8">&nbsp;</div>
+                                    <div class="menuNo" id="mod4" onmouseover="switchmodTag('mod','slidingList','4');this.blur();">政策解读</div>
+                                    <div class="hz_xw_dk_c8">&nbsp;</div>
+                                    <div class="menuNo" id="mod5" onmouseover="switchmodTag('mod','slidingList','5');this.blur();">市场动态</div>
+                                </div>
+                            </div>
+                            <div class="slidingList" id="slidingList1">
+                            	 
+<div class="hz_xw_dk_c3">
+                                	<div class="hz_xw_dk_c3img"><a href="/html/News/Industry/4563.html"><img src="/UploadFiles/2016-01/282/2016012518441981695.png"  width="133" height="92"/></a></div>
+                                    <div class="hz_xw_dk_c4">
+                                    	<div class="hz_xw_dk_c4t"><a href="/html/News/Industry/4563.html">寒冬为贷款奔波，就应该找一个温暖</a></div>
+                                        <div class="hz_xw_dk_c4w"><a href="/html/News/Industry/4563.html">&#160;&#160;&#160;&#160;当你急需要用钱的时候，你上网</a><font style="color:#434343;">[<a href="/html/News/Industry/4563.html">详细</a>]</font></div>
+                                    </div>
+                                </div>
+
+                                <div class="hz_xw_dk_c5"><a href="/html/News/Industry/4383.html" target="_blank"> · 你不懂我我不怪你&nbsp;你不找我我不强</a><br /><a href="/html/News/Industry/4228.html" target="_blank"> · 厚泽：房产交易金融首选品牌</a><br /><a href="/html/News/Industry/6308.html" target="_blank"> · 富人借钱，穷人存钱&nbsp;其实真正的逻</a><br /><a href="/html/News/Industry/6251.html" target="_blank"> · 别问我投金融、投房地产哪个好，最</a><br /></div>
+                            </div>
+                            <div class="slidingList_none" id="slidingList2">
+                            	 
+<div class="hz_xw_dk_c3">
+                                	<div class="hz_xw_dk_c3img"><a href="/html/News/House/6307.html"><img src="/UploadFiles/2017-06/282/2017060917363738011.png"  width="133" height="92"/></a></div>
+                                    <div class="hz_xw_dk_c4">
+                                    	<div class="hz_xw_dk_c4t"><a href="/html/News/House/6307.html">从85折到上浮20%&nbsp;房贷利率狂涨41</a></div>
+                                        <div class="hz_xw_dk_c4w"><a href="/html/News/House/6307.html">一夜之间，房贷利率再生变数。北京、上海、广州多家银行</a><font style="color:#434343;">[<a href="/html/News/House/6307.html">详细</a>]</font></div>
+                                    </div>
+                                </div>
+
+                                <div class="hz_xw_dk_c5"><a href="/html/News/House/6306.html" target="_blank"> · 都说房价降了&nbsp;为何买房人没感觉？</a><br /><a href="/html/News/House/6305.html" target="_blank"> · 一套房子真能改变两代人的阶层？真</a><br /><a href="/html/News/House/6304.html" target="_blank"> · 刚需族贷款买房，月供多少最合适？</a><br /><a href="/html/News/House/6303.html" target="_blank"> · 中国人拼死买房的6大原因&nbsp;你最“</a><br /></div>
+                            </div>
+                            <div class="slidingList_none" id="slidingList3">
+                            	 
+<div class="hz_xw_dk_c3">
+                                	<div class="hz_xw_dk_c3img"><a href="/html/News/Finance/6033.html"><img src="/UploadFiles/2017-01/282/2017012018002090444.png"  width="133" height="92"/></a></div>
+                                    <div class="hz_xw_dk_c4">
+                                    	<div class="hz_xw_dk_c4t"><a href="/html/News/Finance/6033.html">银行存款里的学问：怎样存钱最划算</a></div>
+                                        <div class="hz_xw_dk_c4w"><a href="/html/News/Finance/6033.html">理财方式多样化已经让你应接不暇了吗？投资理财方法千千</a><font style="color:#434343;">[<a href="/html/News/Finance/6033.html">详细</a>]</font></div>
+                                    </div>
+                                </div>
+
+                                <div class="hz_xw_dk_c5"><a href="/html/News/Finance/5663.html" target="_blank"> · 提前还款须知：各大银行违约金都是</a><br /><a href="/html/News/Finance/5595.html" target="_blank"> · 过桥贷款业务流程及风险揭示</a><br /><a href="/html/News/Finance/5545.html" target="_blank"> · 房价依靠贷款贷出来的时代该终结</a><br /><a href="/html/News/Finance/5384.html" target="_blank"> · 将1万元用到极致？这5种方法的效果</a><br /></div>
+                            </div>
+                            <div class="slidingList_none" id="slidingList4">
+                            	 
+<div class="hz_xw_dk_c3">
+                                	<div class="hz_xw_dk_c3img"><a href="/html/News/Policy/4622.html"><img src="/UploadFiles/2016-02/282/2016020217132956688.png"  width="133" height="92"/></a></div>
+                                    <div class="hz_xw_dk_c4">
+                                    	<div class="hz_xw_dk_c4t"><a href="/html/News/Policy/4622.html">最新房贷新政：不限购城市首付降至</a></div>
+                                        <div class="hz_xw_dk_c4w"><a href="/html/News/Policy/4622.html">&#160;&#160;&#160;&#160;2月2日下午，央行、银监会发布</a><font style="color:#434343;">[<a href="/html/News/Policy/4622.html">详细</a>]</font></div>
+                                    </div>
+                                </div>
+
+                                <div class="hz_xw_dk_c5"><a href="/html/News/Policy/6288.html" target="_blank"> · 京沪两地商办新政比较，北京被赞温</a><br /><a href="/html/News/Policy/6285.html" target="_blank"> · 说公积金不实用的&nbsp;其实只是你不知</a><br /><a href="/html/News/Policy/6280.html" target="_blank"> · 北京商住政策靴子落定：3·26之前网</a><br /><a href="/html/News/Policy/6277.html" target="_blank"> · 政策频出，到了刚需高兴的时候了？</a><br /></div>
+                            </div>
+                            <div class="slidingList_none" id="slidingList5">
+                            	 
+<div class="hz_xw_dk_c3">
+                                	<div class="hz_xw_dk_c3img"><a href="/html/News/Market/6239.html"><img src="/UploadFiles/2017-04/282/2017042618031757343.png"  width="133" height="92"/></a></div>
+                                    <div class="hz_xw_dk_c4">
+                                    	<div class="hz_xw_dk_c4t"><a href="/html/News/Market/6239.html">楼市、股市哪个更值得投资？再看不</a></div>
+                                        <div class="hz_xw_dk_c4w"><a href="/html/News/Market/6239.html">有人统计过2000年到2015年的每年的最佳投资选择，看看我</a><font style="color:#434343;">[<a href="/html/News/Market/6239.html" target="_blank">详细</a>]</font></div>
+                                    </div>
+                                </div>
+
+                                <div class="hz_xw_dk_c5"><a href="/html/News/Market/6216.html" target="_blank"> · 天天都在说去杠杆，可你知道杠杆究</a><br /><a href="/html/News/Market/6187.html" target="_blank"> · 深夜裸辞！他眼中的中国未来十年是</a><br /><a href="/html/News/Market/6177.html" target="_blank"> · 【聚焦】北京商住房限购追踪：中介</a><br /><a href="/html/News/Market/6169.html" target="_blank"> · 全球城市生活成本排名：住房成本除</a><br /></div>
+                            </div>
+                        </div> 
+                    </div>
+                    <!--left结束-->
+                    <!--right开始-->
+                    <div class="hzcon_r">
+                    	<!--贷款计算器-->
+                    	<div class="hzcon_r_c1">
+                        	<div class="hzcon_r_c2">
+                            	<div class="hzcon_r_c9">&nbsp;&nbsp;贷款计算器</div>
+                               	<div class="hzcon_r_c10"><a href="/html/tool/">更多</a>&nbsp;&nbsp;&nbsp;</div>
+                            </div>
+                            <div class="hzcon_r_c3">
+                                <a href="/html/tool/HousingLoan/">
+                                   <div class="hzcon_r_c4">
+                                        <div class="hzcon_r_c4_img"><img src="../../html/images/HZ_images/jsq_fd.gif" /></div>
+                                        <div class="hzcon_r_c4_c"><font style="font-size:16px; color:#434343;">房贷计算器</font><br />最新利率，精确计算</div>
+                                </div>
+                              </a>
+                            </div>
+                            <div class="hzcon_r_c3">
+                                <a href="/html/tool/AccumulationFund/">
+                                  <div class="hzcon_r_c4">
+                                        <div class="hzcon_r_c4_img"><img src="../../html/images/HZ_images/jsq_aj.gif" /></div>
+                                        <div class="hzcon_r_c4_c"><font style="font-size:16px; color:#434343;">公积金贷款计算器</font><br />最新利率，精确计算</div>
+                                </div>
+                              </a>
+                            </div>
+                            <div class="hzcon_r_c3">
+                                  <a href="/html/tool/ComparisonRepayment/">
+                                    <div class="hzcon_r_c4">
+                                        <div class="hzcon_r_c4_img"><img src="../../html/images/HZ_images/jsq_hk.gif" /></div>
+                                        <div class="hzcon_r_c4_c"><font style="font-size:16px; color:#434343;">还款计算器</font><br />操作简单轻松还款</div>
+                                    </div>
+                                  </a>
+                            </div>
+                        </div>  
+                        <!--最新贷款基准利率-->
+                        <div class="hz_dy_c6">
+                        	<div class="hzcon_r_c8">
+                            	<div class="hzcon_r_c91">&nbsp;&nbsp;最新央行基准利率<font style="font-size:12px;">（2015/10/24）</font></div>
+                            </div> 
+                            <div class="hz_dy_c7">
+                            	 
+<li><table cellpadding="0" cellspacing="0" border="0" width="220">
+                                	<tr>
+                                    		<td width="50%" height="30">贷款期限</td>
+                                        	<td width="25%">商贷</td>
+                                        	<td width="25%" align="right">公积金</td>
+                                    	</tr>
+                                   
+                                </table></li>
+ 
+<li><table cellpadding="0" cellspacing="0" border="0" width="220">
+                                	<tr>
+                                    		<td width="50%" height="30">6个月</td>
+                                        	<td width="25%">4.35％</td>
+                                        	<td width="25%" align="right">2.75％</td>
+                                    	</tr>
+                                   
+                                </table></li>
+ 
+<li><table cellpadding="0" cellspacing="0" border="0" width="220">
+                                	<tr>
+                                    		<td width="50%" height="30">1年</td>
+                                        	<td width="25%">4.35％</td>
+                                        	<td width="25%" align="right">2.75％</td>
+                                    	</tr>
+                                   
+                                </table></li>
+ 
+<li><table cellpadding="0" cellspacing="0" border="0" width="220">
+                                	<tr>
+                                    		<td width="50%" height="30">1-3（含）年</td>
+                                        	<td width="25%">4.75％</td>
+                                        	<td width="25%" align="right">2.75％</td>
+                                    	</tr>
+                                   
+                                </table></li>
+ 
+<li><table cellpadding="0" cellspacing="0" border="0" width="220">
+                                	<tr>
+                                    		<td width="50%" height="30">3-5（含）年</td>
+                                        	<td width="25%">4.75％</td>
+                                        	<td width="25%" align="right">2.75％</td>
+                                    	</tr>
+                                   
+                                </table></li>
+ 
+<li><table cellpadding="0" cellspacing="0" border="0" width="220">
+                                	<tr>
+                                    		<td width="50%" height="30">5-30年</td>
+                                        	<td width="25%">4.90％</td>
+                                        	<td width="25%" align="right">3.25％</td>
+                                    	</tr>
+                                   
+                                </table></li>
+
+								<div style="border-top:dashed 1px; border-top-color:#CCCCCC;"><a href="/html/Special/zxdkjzll/4091.html" target="_blank" style=" line-height:30px; color:#666666;">&gt;央行贷款历年利率走势曲线图</a></div>
+								<div><a href="/html/Special/zxdkjzll/4090.html" target="_blank" style="line-height:30px;color:#666666">&gt;央行贷款历年利率(1993年-2015)</a></div>
+                            </div>  
+                        </div>
+                        <!--征信查询网点-->
+                        <div class="hzcon_r_c5"><a href="/html/Special/gwdfb/3966.html" target="_blank"><img src="../../html/images/HZ_images/zhxcx.png" width="246" height="89" border="0" /></a></div>
+                        <!--贷款百科-->
+                        <div class="hz_dy_c9">
+                        	<div class="hzcon_r_c8">
+                            	<div class="hzcon_r_c9">&nbsp;&nbsp;贷款百科</div>
+                                <div class="hzcon_r_c10"><a href="/html/LoanEncyclopedia/">更多</a>&nbsp;&nbsp;&nbsp;</div>
+                            </div> 
+                            <div class="hz_in_c10_m1">
+                           		<div class="dkbklist"> 
+                                     <div class="dkbkw95" id="bktags">
+                                         <div style=" width:100px; float:left; margin-left:8px;"><a href="/html/LoanEncyclopedia/gjj/"> &#160;公积金贷款&#160; </a></div>
+<div style=" width:100px; float:left; margin-left:8px;"><a href="/html/LoanEncyclopedia/dkll/"> &#160;贷款利率&#160; </a></div>
+<div style=" width:100px; float:left; margin-left:8px;"><a href="/html/LoanEncyclopedia/yxdk/"> &#160;银行贷款&#160; </a></div>
+<div style=" width:100px; float:left; margin-left:8px;"><a href="/html/LoanEncyclopedia/xedk/"> &#160;小额贷款&#160; </a></div>
+<div style=" width:100px; float:left; margin-left:8px;"><a href="/html/LoanEncyclopedia/dydk/"> &#160;抵押贷款&#160; </a></div>
+<div style=" width:100px; float:left; margin-left:8px;"><a href="/html/LoanEncyclopedia/wdydk/"> &#160;无抵押贷款&#160; </a></div>
+<div style=" width:100px; float:left; margin-left:8px;"><a href="/html/LoanEncyclopedia/fd/"> &#160;房贷&#160; </a></div>
+<div style=" width:100px; float:left; margin-left:8px;"><a href="/html/LoanEncyclopedia/esfdk/"> &#160;二手房贷款&#160; </a></div>
+<div style=" width:100px; float:left; margin-left:8px;"><a href="/html/LoanEncyclopedia/xydk/"> &#160;信用贷款&#160; </a></div>
+<div style=" width:100px; float:left; margin-left:8px;"><a href="/html/LoanEncyclopedia/xd/"> &#160;信贷&#160; </a></div>
+<div style=" width:100px; float:left; margin-left:8px;"><a href="/html/LoanEncyclopedia/grdk/"> &#160;个人贷款&#160; </a></div>
+<div style=" width:100px; float:left; margin-left:8px;"><a href="/html/LoanEncyclopedia/wd/"> &#160;网贷&#160; </a></div>
+<div style=" width:100px; float:left; margin-left:8px;"><a href="/html/LoanEncyclopedia/db/"> &#160;担保&#160; </a></div>
+<div style=" width:100px; float:left; margin-left:8px;"><a href="/html/LoanEncyclopedia/jk/"> &#160;借款&#160; </a></div>
+<div style=" width:100px; float:left; margin-left:8px;"><a href="/html/LoanEncyclopedia/dkmf/"> &#160;贷款买房&#160; </a></div>
+<div style=" width:100px; float:left; margin-left:8px;"><a href="/html/LoanEncyclopedia/fwdk/"> &#160;房屋贷款&#160; </a></div>
+<div style=" width:100px; float:left; margin-left:8px;"><a href="/html/LoanEncyclopedia/zfdk/"> &#160;住房贷款&#160; </a></div>
+<div style=" width:100px; float:left; margin-left:8px;"><a href="/html/LoanEncyclopedia/xedkgs/"> &#160;小额贷款公司&#160; </a></div>
+ 
+                                     </div>
+                              </div> 
+                            </div>
+                        </div>
+                        <div class="hzcon_r_c12"><a href="/html/Special/gwdfb/3959.html" target="_blank"><img src="../../html/images/HZ_images/48.png" width="246" height="89" border="0" /></a></div>
+                        
+                    </div>
+                    <!--right结束-->
+                </div>
+            </div>
+            <!--底部-->
+            <div class="hzfoot"></div>
+    <div class="hzfoot1s">
+        <div class="hzfoot1_c1s">
+            <div class="hzfoot1_cs"><a href="/html/about/gyhz/3891.html" rel="nofollow">关于厚泽</a> &#160;|&#160; <a href="/html/about/lxwm/3892.html" 
+rel="nofollow">联系我们</a> &#160;|&#160; <a 
+href="/html/tool/" rel="nofollow">贷款计算器</a> &#160;|&#160; <a href="/html/about/zxns/3954.html" rel="nofollow">招贤纳士</a> &#160;|&#160; <a 
+href="/html/about/Statement/4022.html" rel="nofollow">免责声明</a> &#160;|&#160; <a 
+href="/html/download/gjj/" rel="nofollow">贷款资料下载</a>  &#160;|&#160; <a href="/plus/map.asp">网站地图</a></div>
+            <div class="hzfoot2_c">
+                地址：北京市朝阳区惠新里甲240号通联大厦一层  电话：010-64997000   24小时贷款热线：400-6656-400<br>
+Copyright&#169;2008北京厚泽金融信息服务有限公司  京ICP备05076337 京公网备案110105014833 
+            </div>
+        </div>
+    </div>
+<div class="fixed-bar">
+                <div class="wide-bar"> 
+                    <a href="javascript:scrollTo(0,0)" class="gotop" title="回到顶部" style="display:none;"><span><font style="font-size:28px;">∧</font><br>返
+回顶部</span></a>
+                </div>
+            </div>
+    
+
+ <!--商务通-->
+
+<script language="javascript" src="http://dht.zoosnet.net/JS/LsJS.aspx?siteid=DHT17982545&float=1&lng=cn"></script>
+<script language="javascript">
+<!--
+if(typeof(LiveReceptionCode_isonline)!='undefined')
+{
+	if(LiveReceptionCode_isonline)
+	{
+		 LR_GetObj('LR_User_Icon/html/Mortgage_1506_6.html').innerHTML='<a '+LiveReceptionCode_BuildChatWin('<span style="color:#990000">[推荐]</span>房产净值抵押贷款—有贷款还能贷','客服人员在线,欢迎点击咨询')+'>在线咨询</a>'; LR_GetObj('LR_User_Icon/html/Mortgage_1506_5.html').innerHTML='<a '+LiveReceptionCode_BuildChatWin('购车抵押贷款—车辆购置费用','客服人员在线,欢迎点击咨询')+'>在线咨询</a>'; LR_GetObj('LR_User_Icon/html/Mortgage_1506_4.html').innerHTML='<a '+LiveReceptionCode_BuildChatWin('留学抵押贷款—各种留学消费','客服人员在线,欢迎点击咨询')+'>在线咨询</a>'; LR_GetObj('LR_User_Icon/html/Mortgage_1506_3.html').innerHTML='<a '+LiveReceptionCode_BuildChatWin('装修抵押贷款—家庭装修用途','客服人员在线,欢迎点击咨询')+'>在线咨询</a>'; LR_GetObj('LR_User_Icon/html/Mortgage_1506_2.html').innerHTML='<a '+LiveReceptionCode_BuildChatWin('<span style="color:#990000">[推荐]</span>企业经营抵押贷款—补充流动资金','客服人员在线,欢迎点击咨询')+'>在线咨询</a>'; LR_GetObj('LR_User_Icon/html/Mortgage_1506_1.html').innerHTML='<a '+LiveReceptionCode_BuildChatWin('<span style="color:#990000">[推荐]</span>抵押消费贷款—个人综合消费','客服人员在线,欢迎点击咨询')+'>在线咨询</a>';
+		
+	}
+	else
+	{
+		
+		
+	}
+}
+//-->
+</script>
+ <!--商务通-->
+
+<!--百度统计-->
+
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "//hm.baidu.com/hm.js?db142cb12e637cea4e9c54aab691c65d";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+<!--百度统计-->
+
+<!--返回顶部-->
+    <script type="text/javascript">    
+		$(document).scroll(function(){ 
+			var  scrollTop =  $(document).scrollTop(),bodyHeight = $(window).height(); 
+			if(scrollTop > bodyHeight){ 
+				$('.fixed-bar .gotop').css('display','block');
+			}else{
+				$('.fixed-bar .gotop').css('display','none');
+			} 
+		})
+	</script> 
+	<!--返回顶部--> 
+            <div class="onlytop">  
+                <div style="width:1024px; margin:auto;">
+                    <div style="width:100%; height:70px; float:left; background:#FFF;">
+                        <div style="width:1024px; height:70px; margin:auto;">
+                            <div class="hztop2ns"><img src="../../html/images/HZ_images/onlytop.png" />
+                            </div>
+                        </div>
+                    </div>
+                </div>  
+            </div>
+<!--停在顶部-->
+    <script type="text/javascript">    
+		$(document).scroll(function(){ 
+			var  scrollTop =  $(document).scrollTop(),bodyHeight = $(window).height(); 
+			if(scrollTop > 210){ 
+				$('.onlytop').css('display','block');
+			}else{
+				$('.onlytop').css('display','none');
+			} 
+		})
+	</script> 
+	<!--停在顶部--> 
+        </div>
+    </div>
+</body>
+</html>
+    <!--贷款百科-->
+    <script>   
+        var chars = ['0','1','2','3','4','5','6','7','8','9','A','B','C','D','E','F'];
+        function generateMixed(n) {
+            var res = "";
+            for(var i = 0; i < n ; i ++) {
+                var id = Math.ceil(Math.random()*16);         
+                res += chars[id];     
+            }     
+            return res;
+		}
+		var num = generateMixed(6);   
+		var p = document.getElementById('ppp')   
+	    p.style.color = "#"+num;
+    </script>
+	<!--贷款百科-->
+<script src="/ks_inc/ajax.js" type="text/javascript"></script>
+<!-- published at 2017/6/9 17:38:24 publish by HOZE -->

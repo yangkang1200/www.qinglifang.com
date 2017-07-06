@@ -1,0 +1,18 @@
+body{ margin:0px; font-family:"Microsoft Yahei";}
+body a{ }
+
+.hz_bk_cona{ width:1024px; height:auto; float:left;}
+.hz_bk_con{ width:1024px; height:auto; float:left;}
+.hz_bk_c1{ width:1024px; height:auto; float:left; margin-top:20px;}
+.hz_bk_c2{ width:323px; height:198px; float:left; background:#FFF;}
+.hz_bk_c2t{ width:323px; height:44px; float:left; line-height:44px; background:#F6E1DF; font-size:16px; color:#434343;}
+.hz_bk_c2t1{ width:250px; height:44px; float:left; line-height:44px; font-size:16px; color:#434343; margin-left:10px;}
+.hz_bk_c2t2{ width:50px; height:44px; float:left; line-height:44px; font-size:12px; color:#555555; text-align:right;}
+.hz_bk_c2t2 a{  color:#555555;}
+.hz_bk_c2n{ width:323px; height:154px; float:left;}
+.hz_bk_c2w{ width:147px; height:30px; float:left; line-height:30px; margin-left:10px; font-size:14px; color:#999999;overflow:hidden}
+.hz_bk_c2w a{  color:#999999;}
+.hz_bk_c2k{ width:27px; height:198px; float:left;}
+.hz_bk_c3t{ width:323px; height:44px; float:left; line-height:44px; background:#DFF6EF; font-size:16px; color:#434343;}
+.hz_bk_c4t{ width:323px; height:44px; float:left; line-height:44px; background:#DFF2F6; font-size:16px; color:#434343;}
+.hz_bk_c5t{ width:323px; height:44px; float:left; line-height:44px; background:#DFE8F6; font-size:16px; color:#434343;}

@@ -1,0 +1,19 @@
+/* Code tidied up by ScrapBook */
+* { margin: 0px; padding: 0px; overflow-wrap: break-word; }
+body { font-family: "微软雅黑"; color: rgb(68, 68, 68); }
+html, body, h1, h2, h3, h4, ul, li, dl, input { margin: 0px; padding: 0px; list-style-type: none; }
+a { color: rgb(51, 51, 51); text-decoration: none; }
+a:hover { text-decoration: underline; }
+a img { border: medium none; }
+div, ul, li, p, form { padding: 0px; margin: 0px; list-style-type: none; }
+em { font-style: normal; font-weight: normal; }
+table { padding: 0px; margin: 0px; list-style-type: none; }
+tr { padding: 0px; margin: 0px; list-style-type: none; }
+.clear { clear: both; height: 0px; overflow: hidden; }
+.topback { background: rgb(255, 255, 255) none repeat scroll 0% 0%; }
+.nav { height: 47px; line-height: 47px; overflow: hidden; background: rgb(243, 243, 246) none repeat scroll 0% 0%; border-bottom: 3px solid rgb(223, 69, 57); }
+.nav .menu { margin: 0px auto; width: 1024px; font-size: 17px; }
+.menu ul li { width: 127px; height: 47px; line-height: 47px; float: left; font-size: 17px; border-right: 1px solid rgb(210, 209, 209); text-align: center; }
+.menu ul li a { color: rgb(67, 67, 67); display: block; padding: 0px 10px; font-family: "微软雅黑"; text-decoration: none; }
+.menu ul li a:hover { color: rgb(255, 255, 255); background: rgb(223, 69, 57) none repeat scroll 0% 0%; }
+.menu ul li.currclass a { color: rgb(255, 255, 255); background: rgb(223, 69, 57) none repeat scroll 0% 0%; }
